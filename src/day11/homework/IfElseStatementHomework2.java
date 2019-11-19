@@ -3,6 +3,9 @@ package day11.homework;
 import java.util.Scanner;
 
 public class IfElseStatementHomework2 {
+    public static void main(String[] args) {
+
+
 //Find the Largest Number Among Three Numbers using user Input
 //to find largest number among three numbers using nested if
 //    int a = 34;
@@ -21,18 +24,23 @@ public class IfElseStatementHomework2 {
     //output 20 is the largest number
 
 
-    public static void main(String[] args) {
+
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Input first number :");
-        int num1 = scan.nextInt();
 
-        System.out.println("Input second number:");
-        int num2 = scan.nextInt();
-
-        System.out.println("Input third number:");
-        int num3 = scan.nextInt();
+        int a = 5 ,b = 1 ,c = 9;
+        if(a>b) {
+            if(a>c)
+                System.out.println("a is largest number");
+            else
+                System.out.println(" c is largest number");
+        }else {
+            if(b>c)
+                System.out.println("b is largest number");
+            else
+                System.out.println(" c is largest number");
+        }
 
 
     }

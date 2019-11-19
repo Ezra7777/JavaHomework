@@ -14,42 +14,24 @@ public class SwitchStatementHomework4 {
 //            "size is X-large"
 //
 //            "size is not small, medium, large or X-large, but was "
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Provide your size;");
-        int size = scan.nextInt();
+    public static void main(String args[]) {
 
-        switch (size) {
-            case 12:
-                System.out.println("your size is xl");
-                break;
-            case 10:
-                System.out.println("your size is l");
-                break;
-            case 8:
-                System.out.println("your size is m");
-                break;
-            case 6:
-                System.out.println("your size is s");
-                break;
-            default:
-                System.out.println("invalid");
+        int s = 4;
+        int m = 8;
+        int l = 10;
+        int xl = 12;
+
+
+                System.out.println("size is small");
+
+                System.out.println(" size is medium");
+
+                System.out.println("size is large");
+
+                System.out.println(" size is x-large");
+
+        System.out.println ("size is not small, medium, large or X-large, but was ");
         }
 
+
     }
-
-
-}
-
-class IfICreateAnotherClass{
-
-}
-
-enum Sizes {
-    S,
-    M,
-    L,
-    XL
-}
-
-
