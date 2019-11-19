@@ -1,52 +1,59 @@
 package day8.homework;
 
 public class HomeworkStrings {
+    //    1.What is the range of short of data type?
+    //    //    //    a.) -128 to 127
+    //    //    //    b) -32768 to 32767//true
+    //    //    //    c) -2147483648 to 2147483647
+    //    //    //    d) none of them
+    //    //
+    //    //
+    //    //    // 2. What is the range of byte data type in Java?
+    //    //    // a) -128 to 127 //true
+    //    //    // b)  -32768 to 32767
+    //    //    // c) None of the method
+    //    //    //  View answer
+    //    //
+    //    //
+    //    //    // 3. Which of the following are legal lines of java code?
+    //    // //   1. int w = (int)888.8;
+    //    ////    2. byte x = (byte)100L;
+    //    ////    3. long y = (byte)100;
+    //    ////    4. byte z = (byte)100L;
+    //    //    //   a) 1 and 2
+    //    //    //   b) 2 and 3
+    //    //    //   c) 3 and 4
+    //    //    //   All the statement are correct.//true
+    //    //
+    //    //
+    //    //    // What is the output of this program?
+    //    //    // class increment {
+    //    //    //   public static void main(String args[] );
+    //    //    //{
+    //    //  int g =3;
+    //    // System.out.println (++g* 8 );
+    //    // }
+    //    //
+    // a) 25
+    //b) 24
+    //c)32//true
+    //d)33
 
-//    What is the numerical range of a char data type in Java?
-//    a) -128 to 127
-//    b) 0 to 256
-//    c) 0 to 32767
-//    d) 0 to 65535
-//
-//
-//    What is the output of this program?
-//
-//    class mainclass {
-//        public static void main(String args[])
-//        {
-//            char a = 'A';
-//            a++;
-//            System.out.print((int)a);
-//        }
-//    }
-//    a) 66
-//    b) 67
-//    c) 65
-//    d) 64
-//
-//
-//    What is the output of this program?
-//
-//    class asciicodes {
-//        public static void main(String args[])
-//        {
-//            char var1 = 'A';
-//            char var2 = 'a';
-//            System.out.println((int)var1 + " " + (int)var2);
-//        }
-//    }
-//    a) 162
-//    b) 65 97
-//    c) 67 95
-//    d) 66 98
+    // Waht is the output of thiss program?
+    //class area {
+    //public static void main (String args[])
+    //}
+    //  double r,pi,a;
+    //r=9.8;
+    //a=pi * r*r;
+    //System.out.println(a);
+    //}
+    // a+ 301.5656//true
+    //b) 301
+    //c)301.56
+    //d)301.56560000
+    //}
 
-//
-//
-//
-//    Which of these methods can be used to convert all characters in a String into a character array?
-//    a) charAt()
-//    b) both getChars() & charAt()
-//    c) both toCharArray() & getChars()
-//    d) All of the mentioned
+
 
 }
