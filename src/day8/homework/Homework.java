@@ -4,14 +4,14 @@ public class Homework {
 
 //    1. What is the range of short data type in Java?
 //    a) -128 to 127
-//    b) -32768 to 32767
+//    b) -32768 to 32767//true
 //    c) -2147483648 to 2147483647
 //    d) None of the mentioned
 //
 //
 //
 //    2. What is the range of byte data type in Java?
-//    a) -128 to 127
+//    a) -128 to 127//ture
 //    b) -32768 to 32767
 //    c) -2147483648 to 2147483647
 //    d) None of the mentioned
@@ -43,7 +43,7 @@ public class Homework {
 //    }
 //    a) 25
 //    b) 24
-//    c) 32
+//    c) 32//true
 //    d) 33
 //
 //
@@ -59,7 +59,7 @@ public class Homework {
 //            System.out.println(a);
 //        }
 //    }
-//    a) 301.5656
+//    a) 301.5656//true
 //    b) 301
 //    c) 301.56
 //    d) 301.56560000
